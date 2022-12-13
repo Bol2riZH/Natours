@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,11 @@
   "bugs": {
     "url": "https://github.com/Bol2riZH/Natours/issues"
   },
+  "homepage": "https://github.com/Bol2riZH/Natours#readme",
   "prettier": {
     "singleQuote": true
   },
-  "homepage": "https://github.com/Bol2riZH/Natours#readme"
+  "devDependencies": {
+    "sass": "^1.56.2"
+  }
 }
