@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bol2riZH/Natours.git"
+  },
+  "author": "Matthieu REUNGOAT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bol2riZH/Natours/issues"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "homepage": "https://github.com/Bol2riZH/Natours#readme"
+}
