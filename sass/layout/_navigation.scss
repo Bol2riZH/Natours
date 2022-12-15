@@ -49,7 +49,7 @@
   }
 
   &__list {
-    @include mixins.center-horizontal-vertical;
+    @include mixins.absCenter;
     list-style: none;
     text-align: center;
     width: 100%;
