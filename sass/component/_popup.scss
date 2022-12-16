@@ -30,6 +30,10 @@
   &__left {
     width: 33.3333333%;
     display: table-cell;
+
+    @include mixins.respond(tab-port) {
+      display: none;
+    }
   }
 
   &__right {
@@ -53,6 +57,10 @@
     column-rule: 1px solid variables.$color-grey-light-2;
 
     hyphens: auto;
+
+    @include mixins.respond(tab-port) {
+      column-count: 1;
+    }
   }
 
   // OPEN STATES
