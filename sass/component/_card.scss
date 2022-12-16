@@ -184,7 +184,8 @@
     font-weight: 100;
   }
 
-  @include mixins.respond(tab-port) {
+  @media only screen and (max-width: 75em), only screen and (hover: none) {
+    //@include mixins.respond(tab-port) {
     height: auto;
     border-radius: 3px;
     background-color: variables.$color-white;
